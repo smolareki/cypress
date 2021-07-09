@@ -1,0 +1,18 @@
+{
+  "name": "teste1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "cy:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.7.0",
+    "express": "^4.17.1",
+    "shelljs": "^0.8.4"
+  }
+}
