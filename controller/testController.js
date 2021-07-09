@@ -12,7 +12,7 @@ module.exports = {
         })
 
         cypress
-        .run({spec: './cypress/integration/test.navegation.spec.js', browser: 'chrome'})
+        .run({spec: './cypress/integration/test.navegation.spec.js', browser: 'electron'})
         .then((results) => {
             console.log(results.runs[0].tests[0])
             response.status(200).json({message: {
